@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Propertylist-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.kumar.auto-keyboard-disabler</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>bash</string>
+      <string>/usr/local/bin/keyboard-disabler.sh</string>
+    </array>
+    <key>OnDemand</key>
+    <false/>
+    <key>StandardErrorPath</key>
+    <string>/dev/null</string>
+    <key>StandardOutPath</key>
+    <string>/dev/null</string>
+  </dict>
+</plist>
