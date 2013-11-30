@@ -45,7 +45,7 @@ Done. Let's connect your external keyboard!!
 
 ## Known Issues
 
-### When external keyboard disconnect (re-enable built-in keyboard), prints all that was typed on the built-in keyboard.
+### When external keyboard disconnect (i.e. re-enable built-in keyboard), prints all that was typed on the built-in keyboard.
 
 Because I'm using the trick presented in following thread.
 
