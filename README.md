@@ -2,6 +2,10 @@
 
 This disable(/re-enable) macbook's built-in keyboard smarty __when your external keyboard connected(/disconnected)__.
 
+![my macbook and hhkbpro2](https://syeygw.bn1301.livefilestore.com/y2p1O8cDq2aAw0ftSKuQ6XdEtFWH3-J9xQzadbdOXajhWzlG4i1uvOhSpm72CYtTq0twBdh9Epf9z2rDbhnOKdgfMRPiVczzidoW_uNmvG8rFY/1385784561950.jpg?psid=1)
+
+So, you can put your favorite keyboard on your Macbook.
+
 ## Setup
 
 This have dependency for [libusbx](http://libusbx.org/) to watch hotplug. If you don't have it:
