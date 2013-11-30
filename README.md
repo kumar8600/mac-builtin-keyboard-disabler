@@ -21,7 +21,7 @@ $ git clone https://github.com/kumar8600/mac-builtin-keyboard-disabler
 $ cd mac-builtin-keyboard-disabler
 ```
 
-Next, in `./keyboard-disabler.sh`, edit `VENDER_ID` and `PRODUCT_ID` for your keyboard's one (It can get by executing `$ system_profiler SPUSBDataType`):
+Next, in `./keyboard-disabler.sh`, edit `VENDER_ID` and `PRODUCT_ID` for your keyboard's one (You can get them by executing `$ system_profiler SPUSBDataType`):
 
 ```
 #!/bin/bash
@@ -29,8 +29,6 @@ Next, in `./keyboard-disabler.sh`, edit `VENDER_ID` and `PRODUCT_ID` for your ke
 VENDER_ID=0x04d9 #YOU NEED TO CHANGE HERE
 
 PRODUCT_ID=0x4545 #YOU NEED TO CHANGE HERE
-
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 .
 .
 .
