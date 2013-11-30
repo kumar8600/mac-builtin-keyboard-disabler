@@ -1,6 +1,6 @@
 # Mac Built-in Keyboard Disabler
 
-This disable(/re-enable) smarty macbook's built-in keyboard __when your external keyboard connected(/disconnected)__.
+This disable(/re-enable) macbook's built-in keyboard smarty __when your external keyboard connected(/disconnected)__.
 
 ## Setup
 
@@ -17,7 +17,7 @@ $ git clone https://github.com/kumar8600/mac-builtin-keyboard-disabler
 $ cd mac-builtin-keyboard-disabler
 ```
 
-Next, in `./keyboard-disabler.sh`, edit `VENDER\_ID` and `PRODUCT\_ID` for your keyboard's one (It can get by executing `$ system_profiler SPUSBDataType`):
+Next, in `./keyboard-disabler.sh`, edit `VENDER_ID` and `PRODUCT_ID` for your keyboard's one (It can get by executing `$ system_profiler SPUSBDataType`):
 
 ```
 #!/bin/bash
@@ -45,13 +45,13 @@ Done. Let's connect your external keyboard!!
 
 ### When external keyboard disconnect (re-enable built-in keyboard), prints all that was typed on the built-in keyboard.
 
-I'm using the trick presented in following thread.
+Because I'm using the trick presented in following thread.
 
 > [Can I disable internal keyboard/trackpad on MBP? - MacRumors Forums](http://forums.macrumors.com/showthread.php?t=433407)
 
 This problem depends on this trick. But I don't know other way to disable built-in keyboard. We only can be careful.
 
-### The integrated keyboard is not re-enabled when without typing a built-in keyboard even once.
+### The integrated keyboard is not re-enabled when I without typing a built-in keyboard even once.
 
-Please type something before disconnect external keyboard.
+To avoid it, please type something before disconnect external keyboard.
 
