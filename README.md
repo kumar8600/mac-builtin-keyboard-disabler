@@ -1,6 +1,6 @@
 # Mac Built-in Keyboard Disabler
 
-This disable(/re-enable) macbook's built-in keyboard __when your external keyboard connected(/disconnected)__.
+This disable(/re-enable) smarty macbook's built-in keyboard __when your external keyboard connected(/disconnected)__.
 
 ## Setup
 
@@ -17,7 +17,7 @@ $ git clone https://github.com/kumar8600/mac-builtin-keyboard-disabler
 $ cd mac-builtin-keyboard-disabler
 ```
 
-Next, in ./keyboard-disabler.sh, edit VENDER\_ID and PRODUCT\_ID for your keaboard's one (It can get by executing `$ system_profiler SPUSBDataType`):
+Next, in `./keyboard-disabler.sh`, edit `VENDER\_ID` and `PRODUCT\_ID` for your keyboard's one (It can get by executing `$ system_profiler SPUSBDataType`):
 
 ```
 #!/bin/bash
