@@ -8,7 +8,7 @@ So, you can put your favorite keyboard on your Macbook.
 
 ## Setup
 
-This have dependency for [libusbx](http://libusbx.org/) to watch hotplug. If you don't have it:
+This has dependency for [libusbx](http://libusbx.org/) to watch usb attaching/detaching. If you don't have it:
 
 ```
 $ brew install libusbx
@@ -45,15 +45,15 @@ Done. Let's connect your external keyboard!!
 
 ## Known Issues
 
-### When external keyboard disconnect (i.e. re-enable built-in keyboard), prints all that was typed on the built-in keyboard.
+### When external keyboard disconnect (i.e. re-enable built-in keyboard), be printed all that was typed on the built-in keyboard.
 
-Because I'm using the trick presented in following thread.
+I'm using the trick presented in following thread.
 
 > [Can I disable internal keyboard/trackpad on MBP? - MacRumors Forums](http://forums.macrumors.com/showthread.php?t=433407)
 
 This problem depends on this trick. But I don't know other way to disable built-in keyboard. We only can be careful.
 
-### The integrated keyboard is not re-enabled when I without typing a built-in keyboard even once.
+### The integrated keyboard is not re-enabled when no typing with built-in keyboard even once.
 
 To avoid it, please type something before disconnect external keyboard.
 
